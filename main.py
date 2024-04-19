@@ -62,7 +62,7 @@ def generateImage():
 
 
 
-@app.route("/hi")
+@app.route("/")
 def home():
      
     
