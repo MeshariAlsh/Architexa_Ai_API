@@ -1,12 +1,9 @@
-from flask import Flask, jsonify, send_file
+from flask import Flask, jsonify, request
 from flask_cors import CORS
 import tensorflow as tf
 from keras import layers
 import os 
 import base64
-
-
-
 
 
 app = Flask(__name__)
@@ -62,11 +59,15 @@ def generateImage():
 
 
 
-@app.route("/")
+@app.route("/hi", methods=["POST"])
 def home():
+     data = request.get_json()
+     prompt = data.get("prompt")
+
      
-    
      
+
+
      generateImage()
 
      imagePath = "test.jpeg"
@@ -81,4 +82,8 @@ def home():
      # return send_file('test.jpeg')
 
     
+
+if __name__ == "__main__":
+    app.run(debug=True)
+
 
