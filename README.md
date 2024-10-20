@@ -8,7 +8,6 @@ This project implements an AI model for generating images of houses. The AI mode
 3. [API Endpoints](#api-endpoints)
 4. [Demo](#demo)
 5. [Running Locally](#running-locally)
-6. [Docker Instructions](#docker-instructions)
 
 ## Project Overview
 
