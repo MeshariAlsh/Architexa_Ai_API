@@ -28,11 +28,12 @@ The AI model is a generator neural network with multiple transposed convolutiona
 
 ### `POST /hi`
 
-**Description**: This endpoint generates a house image and returns it as a base64-encoded JPEG image.
+**Description**: This endpoint generates a house image and returns it as a base64-encoded JPEG image called test.
 
 ## Demo 
 
 Here is an example of what the model outputs 
+
 ![Alt text](test.jpeg)
 
 
