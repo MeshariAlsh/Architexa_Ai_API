@@ -2,6 +2,10 @@
 
 This project implements an AI model for generating images of houses. The AI model was trained by our team and is exposed through a Flask-based API, which is deployed on a web application hosted on Render.
 
+## Live 
+Check it out!
+https://architexa.io/pages/home.html
+
 ## Table of Contents
 1. [Project Overview](#project-overview)
 2. [Model Architecture](#model-architecture)
